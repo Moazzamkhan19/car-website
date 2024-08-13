@@ -1,0 +1,36 @@
+   h1,h2{
+            color:navajowhite;
+            text-align: center;
+        }
+        p{
+            color:black;
+            text-align: center;
+        }
+        section>p{
+            color: black;
+            text-align: center;}
+
+        body{
+            background-image: url("https://cdn.prod.website-files.com/6009ec8cda7f305645c9d91b/60108d33abf33c3e87e59141_6002086f72b72735a101d204_color-theory-p-800.jpeg");
+            background-size: cover;
+        }
+
+.box{
+             width: 600px;
+    height: 200px;
+    background-color:whitesmoke;
+    color: white;
+    border: 10px solid black;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+        }
+        .container
+        {
+            display: flex;
+            justify-content: center;
+        }
