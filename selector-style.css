@@ -2,9 +2,23 @@
     color:blue;
 }
 #x2{
-    color:yellow;
+    color:green;
 }
 article p{
     color:orange;
     text-align: center;
+}
+
+li:visited{
+    color-scheme: dark;
+}
+a:hover{
+    color:red;
+}
+li:nth-child(3){
+    text-align:center;
+}
+button:active {
+    background-color: #005f5f;
+    color: white;
 }
