@@ -1,0 +1,36 @@
+body{
+background-color:lightgrey;
+}
+header{
+background-color:white;
+padding:20px;
+margin:2px;}
+
+header h1{
+text-align:left;}
+
+header a
+{
+color:black;
+background-color:orange;
+padding:0 50px 0 50px;
+margin:5px;
+}
+
+/*2 priority*/
+#color{
+color:purple !important;}
+/*3rd priority*/
+.color{
+color:orange;}
+/*4th priority*/
+p{
+color:red;}
+
+div{
+color:blue;
+background-color:orange;
+margin:0 1100px 0 0;    /*shortning the orange */
+}
+
+
