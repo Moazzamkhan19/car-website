@@ -1,0 +1,92 @@
+head{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: lightgrey;
+}
+* {
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 100px;
+    box-sizing: border-box;
+}
+.flex-container
+{
+    display: flex;
+    flex-direction: row; /*makes elements in row/column/reverse*/
+    flex-wrap: nowrap;
+    justify-content: center; /*aligns the content in center*/
+    align-items: flex-end;/*aligns text on the container*/
+
+}
+h1
+{
+    background-color: grey;
+    text-align: center;
+
+}
+
+.content:hover
+{
+    background-color: lightgreen;
+
+}
+.content1:hover
+{
+    background-color: skyblue;
+
+}
+.content2:hover
+{
+    background-color: lightpink;
+}
+/*------------------------------------------------------------------------------*/
+.content
+{
+    background-color: darkseagreen;
+}
+.content1
+{
+    background-color:lightblue ;
+
+}
+.content2
+{
+    background-color: pink;
+}
+@media (max-width:768px )
+{
+    h1
+    {
+        background-color: darkseagreen;
+    }
+    #section1 img
+    {
+        width:120%;
+        height: 120%;
+        float: right;
+    }
+     #section2 img
+    {
+        width:120%;
+        height: 120%;
+        float: right;
+    }
+      #section3 img
+    {
+        width:120%;
+        height: 120%;
+        float: right;
+    }
+
+}
+.header.h1
+{
+    background-color: lightsteelblue;
+}
+
+
+
+
